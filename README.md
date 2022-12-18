@@ -1,8 +1,13 @@
 # DS301-final-project
 # Anime Character Generator using DCGAN, WGAN, and WGAN-GP
 created by Sihan Chen, Kellen Huang 
+
 ## Project description
-The Anime Character Generator (ACG) is a project that uses machine learning to generate high-quality anime faces. The ACG uses a dataset of images to train and create synthesized anime faces that capture the patterns and details of the input. The ACG tests three different variants of Generative Adversarial Networks (GANs): Deep Convolutional Generative Adversarial Networks (DCGAN), Wasserstein Generative Adversarial Networks (WGAN), and WGAN with gradient penalty (WGAN-GP). The goal of the ACG is to determine which of these algorithms produces the highest quality output images while minimizing training time. But certainly, our primary goal is to make nice-looking anime waifu that we can customize ourselves. 
+The Anime Character Generator (ACG) is a project that uses machine learning to generate high-quality anime faces. 
+
+The ACG uses a dataset of images to train and create synthesized anime faces that capture the patterns and details of the input. The ACG tests three different variants of Generative Adversarial Networks (GANs): Deep Convolutional Generative Adversarial Networks (DCGAN), Wasserstein Generative Adversarial Networks (WGAN), and WGAN with gradient penalty (WGAN-GP). 
+
+The goal of this project is to determine which of these algorithms produces the highest quality output images while minimizing training time. But certainly, our primary goal is to make nice-looking anime waifu that we can customize ourselves. 
 
 ## Project Framework
 **1. Scrap the Dataset from pixiv.com**
@@ -95,9 +100,14 @@ After running the models, the image outputs will be generated under Google colab
 
 
 
-##References 
-(besides the 3 research papers listed above)
-Face detection: https://github.com/ultralytics/yolov5
-Dataset images scrap from: https://www.pixiv.net/
-Models used:
+## References:
+
+**Scrapping data:**
+- Face detection: https://github.com/ultralytics/yolov5
+- Dataset images scrap from: https://www.pixiv.net/
+- 
+**Models used:**
 - DCGAN: https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+- Deep Convolutional GAN (DCGAN): https://arxiv.org/abs/1511.06434
+- Wasserstein GAN (WGAN):  https://arxiv.org/abs/1701.07875
+- Wasserstein GAN GP(WGAN-GP): https://arxiv.org/abs/1704.00028
