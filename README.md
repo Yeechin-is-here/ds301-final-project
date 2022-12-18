@@ -90,12 +90,15 @@ After running the models, the image outputs will be generated under Google colab
 - Loss & score produced by discriminator doesn’t reflect model performance– for instance, compared to using Pixiv dataset, DCGAN generated better quality images when using Anime dataset; however, the loss is overall lower while using Pixiv dataset.
  
 **Anime Dataset with DCGAN:**
+
 <img src="./sample_imgs/dcgan1.png">
  
 **Pixiv Dataset with DCGAN:**
+
 <img src="./sample_imgs/dcgan2.png">
  
 **Loss & Scores:**
+
 <img src="./sample_imgs/scores.png">
 
 
