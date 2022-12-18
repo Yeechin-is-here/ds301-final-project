@@ -31,7 +31,7 @@ The Anime Character Generator (ACG) is a project that uses machine learning to g
 
 
 
-##Code Structure
+## Code Structure
 
 ```
 ├── data/ # the codes used to scrap & crop data from pixiv.com
@@ -56,7 +56,7 @@ The Anime Character Generator (ACG) is a project that uses machine learning to g
 
 
 
-##Example commands to execute the code
+## Example commands to execute the code
 All the .ipynb files under /models/ directory are able to perform the comprehensive task (data import & preprocess – model construction – model training – output visualization & evaluation). 
 
 After running the models, the image outputs will be generated under Google colab’s /content/ directory. 
@@ -64,7 +64,7 @@ After running the models, the image outputs will be generated under Google colab
 (Please follow the instruction in the Colab notebooks)
 
 
-##Results and Observations:
+## Results and Observations:
 ### 1. Performance on different networks using same dataset(Pixiv Dataset)
 - From the outputs above, we can see that DCGAN has generated the images with the highest quality (with clearer human-like figure) after 50 epochs using the pixiv dataset.
 - WGAN and WGAN-GP doesn’t generate valid outputs within 50 epochs– however, this may be the result of many different reasons, such as insufficient training epochs, unsuitable hyperparameters, etc.
