@@ -3,7 +3,8 @@
 created by Sihan Chen, Kellen Huang 
 ## Project description
 The Anime Character Generator (ACG) is a project that uses machine learning to generate high-quality anime faces. The ACG uses a dataset of images to train and create synthesized anime faces that capture the patterns and details of the input. The ACG tests three different variants of Generative Adversarial Networks (GANs): Deep Convolutional Generative Adversarial Networks (DCGAN), Wasserstein Generative Adversarial Networks (WGAN), and WGAN with gradient penalty (WGAN-GP). The goal of the ACG is to determine which of these algorithms produces the highest quality output images while minimizing training time. But certainly, our primary goal is to make nice-looking anime waifu that we can customize ourselves. 
-##Project Framework
+
+## Project Framework
 **1. Scrap the Dataset from pixiv.com**
 - Scrap the images using request;
 - Using yolov5 (a pretrained facial detection model) for anime facial recognition, detecting anime faces from each input image.
